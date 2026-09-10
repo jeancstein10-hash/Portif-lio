@@ -6,22 +6,28 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.introducao h1 {
+    font-size: 40px;
+}
 .introducao img {
     border-radius: 50%;
 }
+header a {
+    font-size: 25px;
+    margin: 100px;
+}
 header {
-    padding: 5px;
     color: black;
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     a {
         color: black;
     }
 }
 .introducao {
-    background-color: black;
+    background: rgb(117, 112, 112);
     color: white;
     padding: 20px;
     display: flex;
@@ -29,6 +35,14 @@ header {
 }
 #cabecalho {
 margin: 20px;
+}
+.projetos a {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.projetos h1 {
+    font-size: 30px;
 }
 .projetos {
     padding: 20px;
@@ -39,19 +53,23 @@ footer {
     justify-content: space-around;
     display: flex;
     padding: 20px;
-    background-color: black;
+    background: rgb(68, 65, 65);
     color: white;
 }
 .projetos {
     display: flex;
     justify-content: center;
+    background: rgb(231, 231, 231);;
+}
+.projeto p {
+    margin-top: 20px;
 }
 .projeto {
     border-radius: 10px;
     padding: 20px;
-    border: 2px solid black;
     margin: 80px;
     transition: 1s;
+    background-color: white;
 }
 .projeto button:hover {
     transform: scale(1.01)
@@ -61,4 +79,5 @@ footer {
 }
 .foot {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
