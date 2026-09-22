@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <div id="links">
-        <a href="Sobre">Sobre</a>
-        <a href="Projetos">Projetos</a>
-        <a href="Contato">Contato</a>            
+        <a href="#Sobre">Sobre</a>
+        <a href="#Projetos">Projetos</a>
+        <a href="#Contato">Contato</a>                  
         </div>
     </header>
     <main>
-        <div class="introducao">
-            <img src="imagens/WhatsApp Image 2026-09-10 at 14.04.32.jpeg" alt="" width="150px" height="150px">
+        <div class="introducao" id="Sobre">
+            <img src="imagens/ftPerfil.jpeg" alt="" width="150px" height="150px">
             <div id="cabecalho">  
                 <p>Olá eu sou</p>
                 <h1>Jean Carlos Stein</h1>
@@ -25,21 +28,24 @@
                 <p>Desenvolvedor Iniciante</p>
             </div>
         </div>    
-        <div class="projetos">
+        <div class="projetos" id="Projetos">
             <h1>Meus Projetos</h1>
         </div>
         <div class="projetos">
-            <div class="projeto">
+            <div class="projeto" id="meusProjs">
+                <img src="imagens/jogoNumero.png" alt="" height="150px">
                 <a href="https://jeancstein10-hash.github.io/Geracao-de-Numeros-Aleatorios-Javascript/">Randomização de Números — Javascript</a>
                 <p>Implementação de um sistema de geração e manipulação de números aleatórios <br>utilizando recursos nativos da linguagem Java.</p>
             </div>
             <div class="projeto">
-                <a href="https://github.com/jeancstein10-hash/TechStore">Desenvolvimento Web — HTML e CSS</a>
+                <img src="imagens/techStore.png" alt="" height="150px">
+                <a href="https://jeancstein10-hash.github.io/TechStore/">Desenvolvimento Web — HTML e CSS</a>
                 <p>Desenvolvimento de uma página web utilizando <br>HTML para estruturação e CSS para estilização e organização visual.</p>
             </div>
             <div class="projeto">
+                <img src="imagens/bibliotecas.png" alt="" height="150px">
                 <a href="https://github.com/jeancstein10-hash/Sistema-de-Busca-Java-Maven.git">Integração de Bibliotecas <br>e <br>Gerenciamento de Dependências — Java</a>
-                <p>Implementação de um sistema de busca utilizando bibliotecas <br>Java e Maven para gerenciamento de dependências e configuração do projeto.</p>
+                <p>Implementação de um sistema de busca utilizando bibliotecas Java e Maven para gerenciamento de dependências e configuração do projeto.</p>
             </div>
         </div>
     </main>
@@ -48,7 +54,7 @@
             <h3>Jean Carlos Stein</h3>
             <p>Estudante de Engenharia de Software</p>
         </div>
-        <div class="foot">
+        <div class="foot" id="Contato">
             <h3>Contato</h3>
             <p>Email: jeancstein10@gmail.com</p>
             <p>Telefone: (43) 98444-7086</p>

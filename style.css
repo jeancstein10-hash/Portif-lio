@@ -1,10 +1,21 @@
 *{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font: bold;
+    font-size: 20px;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main {
+    flex: 1;
+}
+body {
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .introducao h1 {
     font-size: 40px;
@@ -17,17 +28,22 @@ header a {
     margin: 100px;
 }
 header {
-    color: black;
-    background-color: white;
+    font-family: "Bebas Neue", sans-serif;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
     a {
-        color: black;
+        color: rgb(23, 47, 99);
+        text-decoration: none;
+        font-weight: bold;
     }
 }
 .introducao {
-    background: rgb(117, 112, 112);
+    letter-spacing: 2.5px;
+    word-spacing: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    background: linear-gradient(to right, rgb(82, 121, 206),  rgb(23, 47, 99)) ;
     color: white;
     padding: 20px;
     display: flex;
@@ -37,39 +53,49 @@ header {
 margin: 20px;
 }
 .projetos a {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 18px;
     color: black;
 }
 .projetos h1 {
-    font-size: 30px;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 10px;
 }
 .projetos {
-    padding: 20px;
+    font-family: sans-serif;
+    padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    background: white;    
 }
 footer {
+    font-family: sans-serif;
     align-items: center;
     justify-content: space-around;
     display: flex;
     padding: 20px;
-    background: rgb(68, 65, 65);
+    background: linear-gradient(to left, rgb(82, 121, 206),  rgb(23, 47, 99));
     color: white;
-}
-.projetos {
-    display: flex;
-    justify-content: center;
-    background: rgb(231, 231, 231);;
+    margin-top: auto;
 }
 .projeto p {
     margin-top: 20px;
+    font-size: 20px;
+}
+.projeto img {
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .projeto {
     border-radius: 10px;
-    padding: 20px;
-    margin: 80px;
+    padding: 15px;
+    margin: 60px;
     transition: 1s;
     background-color: white;
+    box-shadow: 0px 1px 10px gray;
 }
 .projeto button:hover {
     transform: scale(1.01)
